@@ -4,6 +4,7 @@
     border: 1px solid black;
      width: 40px;
     height: 40px;
+    border: 1px black solid;
 }
 
 .color2{
@@ -12,6 +13,7 @@
     border: 1px solid black;
     width: 40px;
     height: 40px;
+    border: 1px black solid;
 }
 
 .color3{
@@ -20,6 +22,7 @@
     border: 1px solid black;
     width: 40px;
     height: 40px;
+    border: 1px black solid;
 }
 
 .color4{
@@ -28,11 +31,13 @@
     border: 1px solid black;
     width: 40px;
     height: 40px;
+    border: 1px black solid;
 }
 
 #color-palette{
 
     width: 40px;
     height: 40px;
+    border: 1px black solid;
 
 }
