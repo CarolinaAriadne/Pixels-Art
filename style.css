@@ -1,70 +1,52 @@
-.color1{
-
-    background-color: black; 
-    border: 1px solid black; /*borda sólida é 'riscadinha linearmente'*/
-     width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    
+.color1 {
+  background-color: black;
+  border: 1px solid black; /*borda sólida é 'riscadinha linearmente'*/
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
 }
 
-.color2{
-
-    background-color:red;
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-   
+.color2 {
+  background-color: red;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
 }
 
-.color3{
-
-    background-color:blue;
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    
+.color3 {
+  background-color: blue;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
 }
 
-.color4{
-
-    background-color: green;
-    border: 1px solid rgb(100, 84, 84);
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    
+.color4 {
+  background-color: green;
+  border: 1px solid rgb(100, 84, 84);
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
 }
 
-#color-palette{
-
-    width: 300px;
-    height: 80px;
-    display: flex; /*minha div se tornará flexível - por padrão, os itens já ficarão na horizontal*/
-    flex-wrap:wrap; 
-    gap: 15px; /*define o tamanho da lacuna entre as linhas e colunas*/
+#color-palette {
+  width: 300px;
+  height: 80px;
+  display: flex; /*minha div se tornará flexível - por padrão, os itens já ficarão na horizontal*/
+  flex-wrap: wrap;
+  gap: 15px; /*define o tamanho da lacuna entre as linhas e colunas*/
 }
 
-#pixel-board{
-
-    display: flex;
-    height: 210px;
-    width: 220px;
-    flex-wrap:wrap; /*faz com que as divs não fiquem espremidas, faz com que elas se espalhem até o tamanho do container e coloque  os quadrados pra próxima linha de baixo, quando não há mais espaço*/
-
-
+#pixel-board {
+  display: flex;
+  height: 210px;
+  width: 220px;
+  flex-wrap: wrap; /*faz com que as divs não fiquem espremidas, faz com que elas se espalhem até o tamanho do container e coloque  os quadrados pra próxima linha de baixo, quando não há mais espaço*/
 }
-.pixel{
-
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    background-color: white;  /*requisito4 incompleto*/
-    
-    
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  background-color: white;
 }
-
-
-
