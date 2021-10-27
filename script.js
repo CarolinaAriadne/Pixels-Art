@@ -55,3 +55,21 @@ let selecionandoPixels = document.getElementById('pixel-board'); // elemento pai
 
 selecionandoPixels.addEventListener('click', preenchimentoPixel);
 // cada quadrado pixel,  em sua posição,recebe o evento de click (ouvidor)
+
+
+// requisito 9
+
+
+let selecionandoBotao = document.getElementById('clear-board'); // elemento pai
+
+selecionandoBotao.addEventListener('click', limpaQuadro);
+
+function limpaQuadro(event) {
+
+  for (index = 0; index < selecionandoPixels.children.length; index +=1){
+
+  selecionandoPixels.children[index].style.backgroundColor = 'white';
+
+  }
+
+}
